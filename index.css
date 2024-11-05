@@ -1,1 +1,43 @@
-body{}
+body{
+    background-image: url('Images/Galaxy&Stars.jpg');
+}
+
+.sunCircle{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.mercuryCircle{
+    height: 10px;
+    width: 10px;
+    background-color: coral;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.venusCircle{
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.earthCircle{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.marsCircle{
+    height: 45px;
+    width: 45px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
