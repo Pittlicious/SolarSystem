@@ -7,7 +7,6 @@ body{
     width: 150px;
     background-color: yellow;
     border-radius: 50%;
-    margin-right: 5px;
 }
 
 .mercuryCircle{
@@ -15,7 +14,6 @@ body{
     width: 10px;
     background-color: coral;
     border-radius: 50%;
-    margin-right: 5px;
 }
 
 .venusCircle{
@@ -23,7 +21,6 @@ body{
     width: 20px;
     background-color: burlywood;
     border-radius: 50%;
-    margin-right: 5px;
 }
 
 .earthCircle{
@@ -31,7 +28,6 @@ body{
     width: 30px;
     background-color: green;
     border-radius: 50%;
-    margin-right: 5px;
 }
 
 .marsCircle{
@@ -39,5 +35,65 @@ body{
     width: 45px;
     background-color: red;
     border-radius: 50%;
-    margin-right: 5px;
+}
+
+.jupiterCircle{
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+.saturnCircle{
+    height: 75px;
+    width: 75px;
+    background-color: bisque;
+    border-radius: 50%;
+    margin: 100px;
+    transform-style: preserve-3d;
+}
+
+
+
+
+.saturnRing {
+    width: 150%;
+    height: 150%;
+    border: solid 10px chocolate;
+    border-radius: 50%;
+    top: -25%; 
+    left: -25%; 
+    position: absolute;
+    transform: rotate3d(0.8, 0.2, 0, 75deg); 
+    box-sizing: border-box;
+  }
+
+
+.uranusCircle{
+    width: 70px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    margin: 100px;
+    transform-style: preserve-3d;
+}
+
+.uranusRing{
+    width: 150%;
+    height: 150%;
+    border: solid 10px whitesmoke;
+    border-radius: 50%;
+    top: -25%; 
+    left: -25%; 
+    position: absolute;
+    transform: rotate3d(0.8, 0.2, 0, 1560deg); 
+    box-sizing: border-box;
+}
+
+.neptuneCircle{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(71, 71, 236);
+    border-radius: 50%;
+    margin: 100px;
 }
